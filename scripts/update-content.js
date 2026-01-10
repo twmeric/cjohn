@@ -108,6 +108,13 @@ const converter = OpenCC.Converter({ from: 'cn', to: 'hk' });
 
 function localizeText(text) {
     let converted = converter(text);
+    
+    // Fix OpenCC artifacts
+    converted = converted.replace(/黑麪/g, '黑面'); // Fix face vs noodle
+    converted = converted.replace(/麪/g, '面'); // General fix for face context if any others slip through
+    converted = converted.replace(/説/g, '說'); // Fix speak character
+    converted = converted.replace(/温/g, '溫'); // Fix warm character
+    
     for (const [key, value] of Object.entries(FORBIDDEN_WORDS)) {
         converted = converted.replace(new RegExp(key, 'g'), value);
     }

@@ -2,8 +2,7 @@
   "regions": ["hkg1"],
   "functions": {
     "pages/**/*": {
-      "maxDuration": 60,
-      "memory": 1024
+      "maxDuration": 60
     }
   }
 }

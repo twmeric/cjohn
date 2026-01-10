@@ -1,6 +1,4 @@
 import Head from 'next/head'
-import fs from 'fs'
-import path from 'path'
 import Link from 'next/link'
 
 export default function Home() {

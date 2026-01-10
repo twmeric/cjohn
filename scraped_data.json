@@ -1,0 +1,67 @@
+{
+  "title": "Youware App",
+  "navItems": [
+    {
+      "text": "Home",
+      "href": "https://apex-finance.youware.app/"
+    },
+    {
+      "text": "Services",
+      "href": "https://apex-finance.youware.app/services"
+    },
+    {
+      "text": "Consultants",
+      "href": "https://apex-finance.youware.app/consultants"
+    },
+    {
+      "text": "About Us",
+      "href": "https://apex-finance.youware.app/about"
+    },
+    {
+      "text": "Contact",
+      "href": "https://apex-finance.youware.app/contact"
+    }
+  ],
+  "hero": {
+    "headline": "Strategic Partners for Your Capital Market Success",
+    "subheadline": "IPO Advisory | M&A Structuring | Capital Optimization",
+    "ctaText": "",
+    "bgImage": ""
+  },
+  "services": [
+    {
+      "title": "IPO Consulting",
+      "description": "NAVIGATING THE PATH TO PUBLIC LISTING WITH PRECISION"
+    },
+    {
+      "title": "Proven Track Record",
+      "description": "Years of successful IPO and M&A advisory in Hong Kong and Asia-Pacific region"
+    },
+    {
+      "title": "Proven Track Record",
+      "description": "Years of successful IPO and M&A advisory in Hong Kong and Asia-Pacific region"
+    },
+    {
+      "title": "Expert Team",
+      "description": "Experienced consultants with deep capital markets expertise and industry knowledge"
+    },
+    {
+      "title": "Integrated Approach",
+      "description": "Seamless coordination across finance, operations, and structure disciplines"
+    },
+    {
+      "title": "Client-Centric",
+      "description": "Your success is our success; we align incentives with tangible outcomes"
+    },
+    {
+      "title": "Regional Expertise",
+      "description": "Deep understanding of Hong Kong, Mainland China, and cross-border regulations"
+    },
+    {
+      "title": "Sarah Jenkins",
+      "description": "Senior IPO Advisor / Principal Consultant",
+      "iconSrc": "https://apex-finance.youware.app/assets/consultant-woman-DStfdlER.jpg"
+    }
+  ],
+  "htmlPreview": "\n    <div id=\"root\"><div class=\"flex flex-col min-h-screen font-sans text-navy-900 bg-white\" data-yw=\"c3JjL0FwcC50c3hAMTU6Ng\" data-yw-s=\"true\"><nav class=\"bg-navy-900 text-white sticky top-0 z-50 shadow-lg border-b border-gold-600/30\" data-yw=\"c3JjL2NvbXBvbmVudHMvTmF2YmFyLnRzeEAzNTo0\" data-yw-s=\"true\"><div class=\"max-w-7xl mx-auto px-4 sm:px-6 lg:px-8\" data-yw=\"c3JjL2NvbXBvbmVudHMvTmF2YmFyLnRzeEAzNjo2\" data-yw-s=\"true\"><div class=\"flex items-center justify-between h-20\" data-yw=\"c3JjL2NvbXBvbmVu"
+}

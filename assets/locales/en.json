@@ -1,0 +1,98 @@
+{
+    "meta": {
+        "title": "Global Link Strategy - Your Capital Market Success Partner",
+        "description": "Professional listing consultation, M&A, and corporate finance services."
+    },
+    "nav": {
+        "home": "Home",
+        "services": "Services",
+        "consultants": "Consultants",
+        "about": "About Us",
+        "contact": "Contact Us",
+        "logo_alt": "Global Link Strategy Limited Logo"
+    },
+    "hero": {
+        "title_cn": "Global Link Strategy Limited",
+        "title_en": "GLOBAL LINK STRATEGY LIMITED",
+        "subtitle": "Your Capital Market Success Partner | IPO Consultation | Corporate Finance",
+        "cta": "Book Consultation"
+    },
+    "services": {
+        "title": "Professional Services",
+        "subtitle": "Comprehensive Capital Market Solutions",
+        "items": [
+            {
+                "title": "IPO Consultation",
+                "desc": "Providing full IPO guidance, assisting companies in meeting HKEX listing requirements, and planning the best listing path."
+            },
+            {
+                "title": "Mergers & Acquisitions",
+                "desc": "Identifying potential buyers or targets, conducting due diligence, designing transaction structures to maximize enterprise value."
+            },
+            {
+                "title": "Corporate Finance",
+                "desc": "Optimizing capital structure, introducing strategic investors, providing professional advice on debt and equity financing."
+            },
+            {
+                "title": "Corporate Structuring",
+                "desc": "Designing compliant and efficient equity structures to lay a solid foundation for future financing, listing, or family succession."
+            },
+            {
+                "title": "Operations Management",
+                "desc": "Enhancing operational efficiency, establishing internal control systems to ensure business processes meet best industry standards."
+            }
+        ]
+    },
+    "consultants": {
+        "title": "Consultant Team",
+        "subtitle": "Senior Industry Experts",
+        "items": [
+            {
+                "name": "David Chan",
+                "role": "Senior IPO Consultant / Partner",
+                "desc": "Over 20 years of capital market experience, led multiple HK Main Board listing projects, proficient in listing rules and regulatory requirements."
+            },
+            {
+                "name": "Grace Lam",
+                "role": "M&A Director",
+                "desc": "Focusing on cross-border M&A and corporate restructuring, successfully facilitated multiple high-value commercial transactions, creating significant value for clients."
+            },
+            {
+                "name": "Peter Zhang",
+                "role": "Corporate Finance Consultant",
+                "desc": "Expert in designing financing solutions for enterprises, maintaining good relationships with banks and investment institutions to assist companies in solving funding needs."
+            },
+            {
+                "name": "Michelle Wong",
+                "role": "Operations Management Expert",
+                "desc": "Extensive experience in corporate operations management, dedicated to improving corporate efficiency and establishing sound internal control systems."
+            }
+        ]
+    },
+    "cta": {
+        "title": "Ready to Accelerate Your Growth?",
+        "subtitle": "Let's discuss how to help your business reach its potential and achieve capital market goals",
+        "button": "Contact Us"
+    },
+    "form": {
+        "title": "Book Consultation",
+        "name": "Name",
+        "company": "Company Name",
+        "email": "Email Address",
+        "phone": "Phone Number",
+        "message": "Message",
+        "submit": "Submit Request",
+        "cancel": "Cancel"
+    },
+    "footer": {
+        "company_name": "GLOBAL LINK",
+        "company_suffix": "STRATEGY LIMITED",
+        "desc": "Being an unrivaled market-leading catalyst, redefining development trajectories by unlocking the liquidity of high-potential enterprises, establishing them as industry leaders. We envision a business landscape where our strategic interventions turn ambitions into tangible capital market success...",
+        "services_title": "Services",
+        "contact_title": "Contact Us",
+        "address": "Unit 01B3, 23/F, Nan Fung Centre, 264-298 Castle Peak Road, Tsuen Wan, Hong Kong",
+        "copyright": "© 2026 Global Link Strategy Limited · All Rights Reserved",
+        "privacy": "Privacy Policy",
+        "terms": "Terms of Service"
+    }
+}

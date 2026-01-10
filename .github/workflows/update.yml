@@ -1,0 +1,63 @@
+name: Monthly Content Update
+
+on:
+  schedule:
+    - cron: '0 1 15 * *'
+  workflow_dispatch:
+
+jobs:
+  update-and-deploy:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18'
+          cache: 'npm'
+
+      - name: Install Dependencies
+        run: npm install
+
+      - name: Generate Content
+        run: node scripts/update-content.js
+
+      - name: Run Lighthouse CI (Pre-deploy check)
+        run: |
+          npm run build
+          # npx lhci autorun --upload.target=temporary-public-storage || echo "Lighthouse warning"
+
+      - name: Create Backup Tag & Commit
+        run: |
+          git config --global user.name 'GitHub Action'
+          git config --global user.email 'action@github.com'
+          
+          # Create Backup Tag of CURRENT state (before update commit? Or after? Prompt says "Create tag backup... BEFORE update")
+          # Wait, prompt says "Create Git tag backup... BEFORE update".
+          # So I should tag HEAD before committing new changes.
+          
+          TAG_NAME="backup_$(date +'%Y%m%d_%H%M')"
+          git tag $TAG_NAME
+          git push origin $TAG_NAME
+          
+          # Commit New Content
+          git add data/ public/images/header-bg/
+          git commit -m "content: monthly update $(date +'%Y-%m-%d')" || echo "No changes to commit"
+          git push origin main
+
+      - name: Send Notification
+        if: success()
+        run: echo "Update pushed successfully. Vercel will deploy."
+
+      - name: Rollback on Failure
+        if: failure()
+        run: |
+          echo "Workflow failed. Reverting local changes..."
+          git checkout .

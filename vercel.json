@@ -1,0 +1,10 @@
+{
+  "regions": ["hkg1"],
+  "functions": {
+    "pages/**/*": {
+      "maxDuration": 60,
+      "memory": 1024
+    }
+  },
+  "maxLambdaSize": "5mb"
+}

@@ -1,0 +1,62 @@
+{
+  "crawled_at": "2026-01-10T09:00:31.129Z",
+  "pages": [
+    {
+      "language": "en",
+      "url": "https://globallinkstrategyhk.com/en",
+      "title": "Title in en",
+      "meta_tags": {
+        "description": "Description in en"
+      },
+      "images": [
+        {
+          "src": "image1.jpg",
+          "alt": "Alt text for image1.jpg in en"
+        },
+        {
+          "src": "image2.jpg",
+          "alt": "Alt text for image2.jpg in en"
+        }
+      ],
+      "timestamp": "2026-01-10T09:00:31.648Z"
+    },
+    {
+      "language": "zh-tw",
+      "url": "https://globallinkstrategyhk.com/zh-tw",
+      "title": "Title in zh-tw",
+      "meta_tags": {
+        "description": "Description in zh-tw"
+      },
+      "images": [
+        {
+          "src": "image1.jpg",
+          "alt": "Alt text for image1.jpg in zh-tw"
+        },
+        {
+          "src": "image2.jpg",
+          "alt": "Alt text for image2.jpg in zh-tw"
+        }
+      ],
+      "timestamp": "2026-01-10T09:00:32.163Z"
+    },
+    {
+      "language": "zh-cn",
+      "url": "https://globallinkstrategyhk.com/zh-cn",
+      "title": "Title in zh-cn",
+      "meta_tags": {
+        "description": "Description in zh-cn"
+      },
+      "images": [
+        {
+          "src": "image1.jpg",
+          "alt": "Alt text for image1.jpg in zh-cn"
+        },
+        {
+          "src": "image2.jpg",
+          "alt": "Alt text for image2.jpg in zh-cn"
+        }
+      ],
+      "timestamp": "2026-01-10T09:00:32.678Z"
+    }
+  ]
+}

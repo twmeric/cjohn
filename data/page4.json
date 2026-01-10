@@ -1,0 +1,9 @@
+{
+  "html": "\n            <section class=\"content-block\">\n                <div class=\"psychologist-header\">\n                    <img src=\"/images/avatars/弗洛姆.webp\" alt=\"弗洛姆\" class=\"w-[100px] h-[100px] rounded-full mx-auto mb-4\" />\n                    <h3>弗洛姆 的職場智慧</h3>\n                </div>\n                <blockquote class=\"quote-text\">\n                    \"工作不是人生的全部，但我們常在工作中迷失自己。\"\n                </blockquote>\n                <div class=\"theory-summary\">\n                    弗洛姆 強調個體心理學在職場關係中的應用，特別是面對 OT 文化時的界限設定。\n                </div>\n                <div class=\"hk-case\">\n                    陳先生最近常因 OT 問題感到焦慮，放工時間仍無法放鬆，擔心被老細標籤為不合羣。\n                </div>\n                <div class=\"action-steps\">\n                    建議：試著建立「心理放工」儀式，離開公司後專注當下，重拾生活掌控感。\n                </div>\n                <div class=\"gentle-reminder\">\n                    温馨提示：你的價值不只在於工作表現。💛\n                </div>\n            </section>\n        ",
+  "bgImageUrl": "/images/header-bg/header-page4-1768050149507.webp",
+  "bgImageSrcSet": "/images/header-bg/header-page4-1768050149507.webp 750w, /images/header-bg/header-page4-1768050149507-375w.webp 375w",
+  "deployTimestamp": "2026-01-10T13:02:26.446Z",
+  "msgVersion": "v-1768050149556",
+  "psychologist": "弗洛姆",
+  "scenarioId": "work"
+}

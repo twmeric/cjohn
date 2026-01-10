@@ -1,0 +1,9 @@
+{
+  "html": "\n            <section class=\"content-block\">\n                <div class=\"psychologist-header\">\n                    <img src=\"/images/avatars/李中瑩.webp\" alt=\"李中瑩\" class=\"w-[100px] h-[100px] rounded-full mx-auto mb-4\" />\n                    <h3>李中瑩 的溝通藝術</h3>\n                </div>\n                <blockquote class=\"quote-text\">\n                    \"沈默有時是最大的吶喊，但也是最深的傷害。\"\n                </blockquote>\n                <div class=\"theory-summary\">\n                    李中瑩 指出迴避衝突往往導致更大的隔閡，真誠表達脆弱才是連結的開始。\n                </div>\n                <div class=\"hk-case\">\n                    面對爭執，張先生選擇唔出聲、黑麪，以為可以冷靜，卻讓伴侶感到被拒絕。\n                </div>\n                <div class=\"action-steps\">\n                    建議：嘗試説出「我現在需要一點時間整理情緒」，而非直接切斷交流。\n                </div>\n                <div class=\"gentle-reminder\">\n                    温馨提示：愛需要流動，別讓沈默築起高牆。👫\n                </div>\n            </section>\n        ",
+  "bgImageUrl": "/images/header-bg/header-page1-1768050149298.webp",
+  "bgImageSrcSet": "/images/header-bg/header-page1-1768050149298.webp 750w, /images/header-bg/header-page1-1768050149298-375w.webp 375w",
+  "deployTimestamp": "2026-01-10T13:02:26.446Z",
+  "msgVersion": "v-1768050149349",
+  "psychologist": "李中瑩",
+  "scenarioId": "coldwar"
+}

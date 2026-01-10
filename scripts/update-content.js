@@ -1,7 +1,7 @@
 import fs from 'fs';
 import path from 'path';
 import sharp from 'sharp';
-import OpenCC from 'opencc-js';
+import * as OpenCC from 'opencc-js';
 
 // Configuration
 const PSYCHOLOGISTS = ['阿德勒','弗洛姆','薩提亞','鮑爾比','羅洛梅','榮格','李中瑩','卡普曼','約翰·戈特曼'];

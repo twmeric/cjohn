@@ -1,9 +1,9 @@
 {
-  "html": "\n            <section class=\"content-block\">\n                <div class=\"psychologist-header\">\n                    <img src=\"/images/avatars/李中瑩.webp\" alt=\"李中瑩\" class=\"w-[100px] h-[100px] rounded-full mx-auto mb-4\" />\n                    <h3>李中瑩 的溝通藝術</h3>\n                </div>\n                <blockquote class=\"quote-text\">\n                    \"沈默有時是最大的吶喊，但也是最深的傷害。\"\n                </blockquote>\n                <div class=\"theory-summary\">\n                    李中瑩 指出迴避衝突往往導致更大的隔閡，真誠表達脆弱才是連結的開始。\n                </div>\n                <div class=\"hk-case\">\n                    面對爭執，張先生選擇唔出聲、黑麪，以為可以冷靜，卻讓伴侶感到被拒絕。\n                </div>\n                <div class=\"action-steps\">\n                    建議：嘗試説出「我現在需要一點時間整理情緒」，而非直接切斷交流。\n                </div>\n                <div class=\"gentle-reminder\">\n                    温馨提示：愛需要流動，別讓沈默築起高牆。👫\n                </div>\n            </section>\n        ",
-  "bgImageUrl": "/images/header-bg/header-page1-1768050149298.webp",
-  "bgImageSrcSet": "/images/header-bg/header-page1-1768050149298.webp 750w, /images/header-bg/header-page1-1768050149298-375w.webp 375w",
-  "deployTimestamp": "2026-01-10T13:02:26.446Z",
-  "msgVersion": "v-1768050149349",
-  "psychologist": "李中瑩",
-  "scenarioId": "coldwar"
+  "html": "\n            <section class=\"content-block\">\n                <div class=\"psychologist-header\">\n                    <img src=\"/images/avatars/榮格.webp\" alt=\"榮格\" class=\"w-[100px] h-[100px] rounded-full mx-auto mb-4\" />\n                    <h3>榮格 的家庭觀點</h3>\n                </div>\n                <blockquote class=\"quote-text\">\n                    \"家是共同經營的港灣，不是一個人的戰場。\"\n                </blockquote>\n                <div class=\"theory-summary\">\n                    榮格 認為家庭互動模式決定了關係質量，家務分工是愛的具體實踐。\n                </div>\n                <div class=\"hk-case\">\n                    李太太抱怨先生不主動幫忙煮飯晾衫，覺得自己像個工人，雙方陷入僵局。\n                </div>\n                <div class=\"action-steps\">\n                    建議：邀請伴侶一起參與家務，將「幫忙」轉化為「共同參與」的樂趣。\n                </div>\n                <div class=\"gentle-reminder\">\n                    溫馨提示：家務是愛的流動，不是責任的堆砌。✨\n                </div>\n            </section>\n        ",
+  "bgImageUrl": "/images/header-bg/header-page1-1768053357204.webp",
+  "bgImageSrcSet": "/images/header-bg/header-page1-1768053357204.webp 750w, /images/header-bg/header-page1-1768053357204-375w.webp 375w",
+  "deployTimestamp": "2026-01-10T13:55:57.022Z",
+  "msgVersion": "v-1768053357245",
+  "psychologist": "榮格",
+  "scenarioId": "housework"
 }

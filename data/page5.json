@@ -1,9 +1,18 @@
 {
-  "html": "\n            <section class=\"content-block\">\n                <div class=\"psychologist-header\">\n                    <img src=\"/images/avatars/阿德勒.webp\" alt=\"阿德勒\" class=\"w-[100px] h-[100px] rounded-full mx-auto mb-4\" />\n                    <h3>阿德勒 的職場智慧</h3>\n                </div>\n                <blockquote class=\"quote-text\">\n                    \"工作不是人生的全部，但我們常在工作中迷失自己。\"\n                </blockquote>\n                <div class=\"theory-summary\">\n                    阿德勒 強調個體心理學在職場關係中的應用，特別是面對 OT 文化時的界限設定。\n                </div>\n                <div class=\"hk-case\">\n                    陳先生最近常因 OT 問題感到焦慮，放工時間仍無法放鬆，擔心被老細標籤為不合羣。\n                </div>\n                <div class=\"action-steps\">\n                    建議：試著建立「心理放工」儀式，離開公司後專注當下，重拾生活掌控感。\n                </div>\n                <div class=\"gentle-reminder\">\n                    溫馨提示：你的價值不只在於工作表現。💛\n                </div>\n            </section>\n        ",
-  "bgImageUrl": "/images/header-bg/header-page5-1768053357411.webp",
-  "bgImageSrcSet": "/images/header-bg/header-page5-1768053357411.webp 750w, /images/header-bg/header-page5-1768053357411-375w.webp 375w",
-  "deployTimestamp": "2026-01-10T13:55:57.022Z",
-  "msgVersion": "v-1768053357451",
-  "psychologist": "阿德勒",
-  "scenarioId": "work"
+  "psychologist": {
+    "name": "維琴尼亞·薩提亞",
+    "title": "家庭治療先驅",
+    "avatar": "/images/avatars/satir.webp"
+  },
+  "content": {
+    "quote": "關係的真諦，是兩個身心整合的人，創造彼此被看見、被理解的空間",
+    "theory": "薩提亞模式核心是「身心整合，內外一致」，強調改善溝通、提升自尊，而非消除表面症狀。",
+    "case": "阿玲同先生結婚8年，每次爭執都會用「沉默冷戰」回應，先生覺得她不夠在乎，她卻只是怕說錯話傷感情。原來阿玲成長中習慣了「壓抑感受」，遇到矛盾就自動封閉，導致夫妻間誤會越積越深，連週末出行計劃都常因為冷戰泡湯。",
+    "method": "「三句表達法」—— 先說事實（「今日你忘記我們約好去買菜」），再說感受（「我有啲失落同失望」），最後說需求（「希望你下次記得後可以提前同我講」），避免壓抑或指責。",
+    "reminder": "每種溝通模式背後，都藏著渴望被理解的心意，學會真實表達，關係才會慢慢流動起來 ✨"
+  },
+  "bgImageUrl": "/images/header-bg/header-page5-1768055663097.webp",
+  "bgImageSrcSet": "/images/header-bg/header-page5-1768055663097.webp 750w, /images/header-bg/header-page5-1768055663097-375w.webp 375w",
+  "deployTimestamp": "2026-01-10T14:34:22.664Z",
+  "msgVersion": "v-1768055663151"
 }

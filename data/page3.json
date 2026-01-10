@@ -1,9 +1,18 @@
 {
-  "html": "\n            <section class=\"content-block\">\n                <div class=\"psychologist-header\">\n                    <img src=\"/images/avatars/卡普曼.webp\" alt=\"卡普曼\" class=\"w-[100px] h-[100px] rounded-full mx-auto mb-4\" />\n                    <h3>卡普曼 的溝通藝術</h3>\n                </div>\n                <blockquote class=\"quote-text\">\n                    \"沈默有時是最大的吶喊，但也是最深的傷害。\"\n                </blockquote>\n                <div class=\"theory-summary\">\n                    卡普曼 指出迴避衝突往往導致更大的隔閡，真誠表達脆弱才是連結的開始。\n                </div>\n                <div class=\"hk-case\">\n                    面對爭執，張先生選擇唔出聲、黑面，以為可以冷靜，卻讓伴侶感到被拒絕。\n                </div>\n                <div class=\"action-steps\">\n                    建議：嘗試說出「我現在需要一點時間整理情緒」，而非直接切斷交流。\n                </div>\n                <div class=\"gentle-reminder\">\n                    溫馨提示：愛需要流動，別讓沈默築起高牆。👫\n                </div>\n            </section>\n        ",
-  "bgImageUrl": "/images/header-bg/header-page3-1768053357298.webp",
-  "bgImageSrcSet": "/images/header-bg/header-page3-1768053357298.webp 750w, /images/header-bg/header-page3-1768053357298-375w.webp 375w",
-  "deployTimestamp": "2026-01-10T13:55:57.022Z",
-  "msgVersion": "v-1768053357348",
-  "psychologist": "卡普曼",
-  "scenarioId": "coldwar"
+  "psychologist": {
+    "name": "約翰·戈特曼",
+    "title": "婚姻關係研究權威",
+    "avatar": "/images/avatars/gottman.webp"
+  },
+  "content": {
+    "quote": "幸福的婚姻，不是沒有衝突，而是有修復衝突的能力",
+    "theory": "戈特曼通過40年研究，發現夫妻間「5:1的積極互動比率」是關係穩定的關鍵，積極回應伴侶的連接嘗試更能鞏固感情。",
+    "case": "阿強每日返工疲憊，太太分享同事趣事時，他總是一邊刷手機一邊敷衍回應；太太抱怨家務分工不均，他就反駁「我賺錢更辛苦」。慢慢太太不再主動分享生活，兩人睡前只剩沉默，甚至懷疑彼此是否還適合。其實太太只是渴望阿強的關注，而阿強沒有意識到，敷衍回應正在消耗彼此的感情。",
+    "method": "「每日3分鐘傾聽儀式」—— 睡前各自分享1件當日小事，傾聽方不打斷、不辯解，只說1句認可的話（「原來你今日處理咗咁多麻煩事，真係好叻」），累積積極互動。",
+    "reminder": "感情的溫度，藏在每一次認真回應裡，小小的積極互動，就能築起堅固的關係防線 💛"
+  },
+  "bgImageUrl": "/images/header-bg/header-page3-1768055662949.webp",
+  "bgImageSrcSet": "/images/header-bg/header-page3-1768055662949.webp 750w, /images/header-bg/header-page3-1768055662949-375w.webp 375w",
+  "deployTimestamp": "2026-01-10T14:34:22.664Z",
+  "msgVersion": "v-1768055663010"
 }

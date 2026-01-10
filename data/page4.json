@@ -1,9 +1,18 @@
 {
-  "html": "\n            <section class=\"content-block\">\n                <div class=\"psychologist-header\">\n                    <img src=\"/images/avatars/弗洛姆.webp\" alt=\"弗洛姆\" class=\"w-[100px] h-[100px] rounded-full mx-auto mb-4\" />\n                    <h3>弗洛姆 的家庭觀點</h3>\n                </div>\n                <blockquote class=\"quote-text\">\n                    \"家是共同經營的港灣，不是一個人的戰場。\"\n                </blockquote>\n                <div class=\"theory-summary\">\n                    弗洛姆 認為家庭互動模式決定了關係質量，家務分工是愛的具體實踐。\n                </div>\n                <div class=\"hk-case\">\n                    李太太抱怨先生不主動幫忙煮飯晾衫，覺得自己像個工人，雙方陷入僵局。\n                </div>\n                <div class=\"action-steps\">\n                    建議：邀請伴侶一起參與家務，將「幫忙」轉化為「共同參與」的樂趣。\n                </div>\n                <div class=\"gentle-reminder\">\n                    溫馨提示：家務是愛的流動，不是責任的堆砌。✨\n                </div>\n            </section>\n        ",
-  "bgImageUrl": "/images/header-bg/header-page4-1768053357350.webp",
-  "bgImageSrcSet": "/images/header-bg/header-page4-1768053357350.webp 750w, /images/header-bg/header-page4-1768053357350-375w.webp 375w",
-  "deployTimestamp": "2026-01-10T13:55:57.022Z",
-  "msgVersion": "v-1768053357393",
-  "psychologist": "弗洛姆",
-  "scenarioId": "housework"
+  "psychologist": {
+    "name": "羅洛·梅",
+    "title": "存在主義心理學家",
+    "avatar": "/images/avatars/may.webp"
+  },
+  "content": {
+    "quote": "愛與意志是不可分割的；愛是意志的行動，意志是愛的堅持",
+    "theory": "羅洛梅強調在焦慮時代，我們需要勇氣去愛。愛不是衝動，而是一種決心，是在面對不確定性時，依然選擇對另一個生命負責。",
+    "case": "志強同太太因為買樓問題意見不合，陷入冷戰。志強覺得太太不切實際，太太覺得志強沒有承擔。兩人都等著對方妥協。其實這是一種權力鬥爭。愛需要意志來跨越分歧，不是要贏過對方，而是為了共同的未來，願意放下部分的自我中心。",
+    "method": "「共同意願清單」—— 坐下來，不是討論誰對誰錯，而是寫下「我們共同想要的生活」。找出雙方願景的重疊處（例如：都想有個安穩的家），以此為基點重新協商。",
+    "reminder": "愛是即使在風雨中，依然選擇緊握對方的手，共同面對未知的勇氣 🌪️"
+  },
+  "bgImageUrl": "/images/header-bg/header-page4-1768055663017.webp",
+  "bgImageSrcSet": "/images/header-bg/header-page4-1768055663017.webp 750w, /images/header-bg/header-page4-1768055663017-375w.webp 375w",
+  "deployTimestamp": "2026-01-10T14:34:22.664Z",
+  "msgVersion": "v-1768055663082"
 }

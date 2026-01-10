@@ -1,9 +1,18 @@
 {
-  "html": "\n            <section class=\"content-block\">\n                <div class=\"psychologist-header\">\n                    <img src=\"/images/avatars/薩提亞.webp\" alt=\"薩提亞\" class=\"w-[100px] h-[100px] rounded-full mx-auto mb-4\" />\n                    <h3>薩提亞 的家庭觀點</h3>\n                </div>\n                <blockquote class=\"quote-text\">\n                    \"家是共同經營的港灣，不是一個人的戰場。\"\n                </blockquote>\n                <div class=\"theory-summary\">\n                    薩提亞 認為家庭互動模式決定了關係質量，家務分工是愛的具體實踐。\n                </div>\n                <div class=\"hk-case\">\n                    李太太抱怨先生不主動幫忙煮飯晾衫，覺得自己像個工人，雙方陷入僵局。\n                </div>\n                <div class=\"action-steps\">\n                    建議：邀請伴侶一起參與家務，將「幫忙」轉化為「共同參與」的樂趣。\n                </div>\n                <div class=\"gentle-reminder\">\n                    溫馨提示：家務是愛的流動，不是責任的堆砌。✨\n                </div>\n            </section>\n        ",
-  "bgImageUrl": "/images/header-bg/header-page2-1768053357247.webp",
-  "bgImageSrcSet": "/images/header-bg/header-page2-1768053357247.webp 750w, /images/header-bg/header-page2-1768053357247-375w.webp 375w",
-  "deployTimestamp": "2026-01-10T13:55:57.022Z",
-  "msgVersion": "v-1768053357296",
-  "psychologist": "薩提亞",
-  "scenarioId": "housework"
+  "psychologist": {
+    "name": "阿爾弗雷德·阿德勒",
+    "title": "個體心理學之父",
+    "avatar": "/images/avatars/adler.webp"
+  },
+  "content": {
+    "quote": "所有煩惱，都是人際關係的煩惱；但所有喜悦，也來自人際關係",
+    "theory": "阿德勒心理學強調「課題分離」與「共同體感覺」，認為我們不應被過去的創傷定義，而應著眼於未來的目的，在關係中建立橫向的平等連結。",
+    "case": "偉明在公司升職後壓力大增，返到屋企經常將工作情緒發洩在太太身上。太太試圖關心，偉明卻覺得是干涉。其實偉明陷入了「證明自己」的焦慮，忘記了家是放鬆的地方，而非另一個戰場。他需要明白，工作評價是別人的課題，如何對待家人是自己的課題。",
+    "method": "「課題分離練習」—— 當感到煩躁時，在心中畫一條線：這是工作的壓力（別人的課題），還是我對家人的態度（我的課題）？深呼吸，選擇只處理屬於自己的部分，回家後給太太一個擁抱。",
+    "reminder": "勇氣不是不害怕，而是即使害怕，依然選擇信任與連結。放下防衞，愛自然會進來 🌿"
+  },
+  "bgImageUrl": "/images/header-bg/header-page2-1768055662888.webp",
+  "bgImageSrcSet": "/images/header-bg/header-page2-1768055662888.webp 750w, /images/header-bg/header-page2-1768055662888-375w.webp 375w",
+  "deployTimestamp": "2026-01-10T14:34:22.664Z",
+  "msgVersion": "v-1768055662936"
 }

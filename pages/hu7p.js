@@ -12,23 +12,11 @@ export default function Page() {
         
         {/* Left Column: Image */}
         <div className="w-full md:w-4/12 relative">
-           {/* Desktop Image (Absolute fill) */}
-           <div className="hidden md:block absolute inset-0 w-full h-full">
-               <img
-                src="/assets/hu7p.webp"
-                alt="Healing Header"
-                className="w-full h-full object-cover object-top"
-              />
-           </div>
-           
-           {/* Mobile Image (Natural Height with Max Limit) */}
-           <div className="md:hidden w-full">
-              <img
-                src="/assets/hu7p.webp"
-                alt="Healing Header"
-                className="w-full h-auto max-h-[300px] object-cover object-top"
-              />
-           </div>
+           <img
+             src="/assets/hu7p.webp"
+             alt="Healing Header"
+             className="w-full object-cover object-top h-auto max-h-[240px] md:absolute md:inset-0 md:h-full md:max-h-none"
+           />
         </div>
 
         {/* Right Column: Content */}

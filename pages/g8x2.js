@@ -11,7 +11,7 @@ export default function Page() {
       <div className="w-full max-w-5xl bg-white rounded-[24px] md:rounded-[32px] shadow-xl overflow-hidden flex flex-col md:flex-row">
         
         {/* Left Column: Image */}
-        <div className="w-full md:w-5/12 relative h-64 md:h-auto min-h-[300px]">
+        <div className="w-full md:w-4/12 relative h-48 md:h-auto">
           <img
             src="/assets/g8x2.webp"
             alt="Healing Header"
@@ -20,7 +20,7 @@ export default function Page() {
         </div>
 
         {/* Right Column: Content */}
-        <div className="w-full md:w-7/12 px-6 py-8 md:p-12 flex flex-col relative bg-white">
+        <div className="w-full md:w-8/12 px-6 py-8 md:p-12 flex flex-col relative bg-white">
           
           <main className="flex-1 pb-24 md:pb-0">
             {/* Name */}

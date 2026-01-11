@@ -56,7 +56,7 @@ export default function Page() {
           </div>
 
           {/* 8. WhatsApp Button */}
-          <div className="fixed bottom-8 left-0 right-0 text-center px-6 pointer-events-none">
+          <div className="fixed bottom-8 left-0 right-0 text-center px-6 pointer-events-none z-50">
               <div className="max-w-md mx-auto pointer-events-auto">
                 <a 
                   href="https://wa.me/85212345678" 

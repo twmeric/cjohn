@@ -5,19 +5,22 @@ export default function Page() {
     <div className="min-h-screen bg-[#FDFBF7] font-sans flex flex-col items-center">
       <Head>
         <title>Coach John 心理療愈</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
 
-      <div className="w-full max-w-md bg-[#FDFBF7] min-h-screen shadow-sm">
-        {/* 1. Header Image */}
-        <div className="w-full h-auto">
+      {/* Container for the whole page content */}
+      <div className="w-full bg-[#FDFBF7] min-h-screen shadow-sm flex flex-col items-center">
+        
+        {/* 1. Header Image Container - Full width on mobile, max-width on desktop */}
+        <div className="w-full max-w-3xl mx-auto">
           <img
             src="/assets/hu7p.webp"
             alt="Healing Header"
-            className="w-full h-auto object-cover block"
+            className="w-full h-auto object-cover block shadow-md md:rounded-b-2xl"
           />
         </div>
 
-        <main className="px-6 py-8 pb-24">
+        <main className="w-full max-w-2xl px-6 py-8 pb-24 mx-auto">
           {/* 2. Name */}
           <h1 className="text-[#C08497] font-bold text-center text-xl mb-4">
             薩提亞（Virginia Satir）｜家庭治療先驅
@@ -56,7 +59,7 @@ export default function Page() {
           </div>
 
           {/* 8. WhatsApp Button */}
-          <div className="fixed bottom-8 left-0 right-0 text-center px-6 pointer-events-none">
+          <div className="fixed bottom-8 left-0 right-0 text-center px-6 pointer-events-none z-50">
               <div className="max-w-md mx-auto pointer-events-auto">
                 <a 
                   href="https://wa.me/85212345678" 

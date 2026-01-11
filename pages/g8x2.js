@@ -5,19 +5,22 @@ export default function Page() {
     <div className="min-h-screen bg-[#FDFBF7] font-sans flex flex-col items-center">
       <Head>
         <title>Coach John 心理療愈</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
 
-      <div className="w-full max-w-md bg-[#FDFBF7] min-h-screen shadow-sm">
-        {/* 1. Header Image */}
-        <div className="w-full h-auto">
+      {/* Container for the whole page content */}
+      <div className="w-full bg-[#FDFBF7] min-h-screen shadow-sm flex flex-col items-center">
+        
+        {/* 1. Header Image Container - Full width on mobile, max-width on desktop */}
+        <div className="w-full max-w-3xl mx-auto">
           <img
             src="/assets/g8x2.webp"
             alt="Healing Header"
-            className="w-full h-auto object-cover block"
+            className="w-full h-auto object-cover block shadow-md md:rounded-b-2xl"
           />
         </div>
 
-        <main className="px-6 py-8 pb-24">
+        <main className="w-full max-w-2xl px-6 py-8 pb-24 mx-auto">
           {/* 2. Name */}
           <h1 className="text-[#C08497] font-bold text-center text-xl mb-4">
             弗洛姆（Erich Fromm）｜愛的藝術理論大師

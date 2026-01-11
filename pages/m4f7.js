@@ -11,7 +11,7 @@ export default function Page() {
         {/* 1. Header Image */}
         <div className="w-full h-auto">
           <img
-            src="/assets/m4f7.png"
+            src="/assets/m4f7.webp"
             alt="Healing Header"
             className="w-full h-auto object-cover block"
           />

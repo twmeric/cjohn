@@ -2,13 +2,13 @@ import Head from 'next/head'
 
 export default function Page() {
   return (
-    <div className="min-h-screen bg-[#F9F7F2] font-sans py-0 md:py-12 flex justify-center">
+    <div className="min-h-screen bg-[#F9F7F2] font-sans py-6 px-4 md:py-12 md:px-0 flex justify-center">
       <Head>
         <title>Coach John 心理療愈</title>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
 
-      <div className="w-full max-w-5xl bg-white md:rounded-[32px] shadow-xl overflow-hidden flex flex-col md:flex-row">
+      <div className="w-full max-w-5xl bg-white rounded-[24px] md:rounded-[32px] shadow-xl overflow-hidden flex flex-col md:flex-row">
         
         {/* Left Column: Image */}
         <div className="w-full md:w-5/12 relative h-64 md:h-auto min-h-[300px]">

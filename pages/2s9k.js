@@ -15,7 +15,7 @@ export default function Page() {
            <img
              src="/assets/2s9k.webp"
              alt="Healing Header"
-             className="w-full object-cover object-top h-auto max-h-[240px] md:absolute md:inset-0 md:h-full md:max-h-none"
+             className="w-full object-cover object-top h-auto max-h-[200px] md:absolute md:inset-0 md:h-full md:max-h-none"
            />
         </div>
 

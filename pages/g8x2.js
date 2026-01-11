@@ -11,12 +11,24 @@ export default function Page() {
       <div className="w-full max-w-5xl bg-white rounded-[24px] md:rounded-[32px] shadow-xl overflow-hidden flex flex-col md:flex-row">
         
         {/* Left Column: Image */}
-        <div className="w-full md:w-4/12 relative h-48 md:h-auto">
-          <img
-            src="/assets/g8x2.webp"
-            alt="Healing Header"
-            className="absolute inset-0 w-full h-full object-cover object-top"
-          />
+        <div className="w-full md:w-4/12 relative">
+           {/* Desktop Image (Absolute fill) */}
+           <div className="hidden md:block absolute inset-0 w-full h-full">
+               <img
+                src="/assets/g8x2.webp"
+                alt="Healing Header"
+                className="w-full h-full object-cover object-top"
+              />
+           </div>
+           
+           {/* Mobile Image (Natural Height with Max Limit) */}
+           <div className="md:hidden w-full">
+              <img
+                src="/assets/g8x2.webp"
+                alt="Healing Header"
+                className="w-full h-auto max-h-[300px] object-cover object-top"
+              />
+           </div>
         </div>
 
         {/* Right Column: Content */}
@@ -37,7 +49,7 @@ export default function Page() {
             </blockquote>
 
             {/* Theory */}
-            <div className="text-gray-600 text-[15px] md:text-base text-justify mb-8 leading-loose tracking-wide">
+            <div className="text-gray-600 text-[15px] md:text-base text-justify mb-8 leading-relaxed tracking-wide">
               弗洛姆在《愛的藝術》中強調：愛唔係一種偶然的邂逅，而是一種需要學習與練習的能力。好多人誤以為「找到對的人」就會幸福，但其實幸福的關係，係靠兩個人主動付出、用心經營出來的。等待對方先愛自己，只會讓關係變成冷冰冰的僵局。
             </div>
 

@@ -11,12 +11,24 @@ export default function Page() {
       <div className="w-full max-w-5xl bg-white rounded-[24px] md:rounded-[32px] shadow-xl overflow-hidden flex flex-col md:flex-row">
         
         {/* Left Column: Image */}
-        <div className="w-full md:w-4/12 relative h-48 md:h-auto">
-          <img
-            src="/assets/m4f7.webp"
-            alt="Healing Header"
-            className="absolute inset-0 w-full h-full object-cover object-top"
-          />
+        <div className="w-full md:w-4/12 relative">
+           {/* Desktop Image (Absolute fill) */}
+           <div className="hidden md:block absolute inset-0 w-full h-full">
+               <img
+                src="/assets/m4f7.webp"
+                alt="Healing Header"
+                className="w-full h-full object-cover object-top"
+              />
+           </div>
+           
+           {/* Mobile Image (Natural Height with Max Limit) */}
+           <div className="md:hidden w-full">
+              <img
+                src="/assets/m4f7.webp"
+                alt="Healing Header"
+                className="w-full h-auto max-h-[300px] object-cover object-top"
+              />
+           </div>
         </div>
 
         {/* Right Column: Content */}
@@ -25,20 +37,20 @@ export default function Page() {
           <main className="flex-1 pb-24 md:pb-0">
             {/* Name */}
             <h1 className="text-[#A47E89] font-bold text-center md:text-left text-2xl md:text-3xl mb-6 tracking-wide">
-              戈特曼（John Gottman）<br/>
-              <span className="text-lg md:text-xl font-medium opacity-80">婚姻關係研究權威</span>
+              薩提亞（Virginia Satir）<br/>
+              <span className="text-lg md:text-xl font-medium opacity-80">家庭治療之母</span>
             </h1>
 
             {/* Quote */}
             <blockquote className="text-[#C08497] font-bold text-center md:text-left text-xl leading-relaxed mb-8 italic relative pl-4 border-l-4 border-[#C08497] md:border-none md:pl-0">
                <span className="hidden md:inline text-3xl opacity-30">"</span>
-               幸福的婚姻，唔係沒有衝突，而是有修復衝突的能力。
+               指責與討好，都換不來真愛；唯有一致性溝通，才能看見彼此。
                <span className="hidden md:inline text-3xl opacity-30">"</span>
             </blockquote>
 
             {/* Theory */}
-            <div className="text-gray-600 text-[15px] md:text-base text-justify mb-8 leading-loose tracking-wide">
-              戈特曼通過40年研究發現：婚姻的穩定取決於「積極互動」與「消極互動」的比率——至少5:1的積極互動，才能抵消一次消極互動的傷害。而修復衝突的關鍵，係學會「及時道歉」「主動示弱」，唔好讓矛盾積累成無法彌補的傷痕。
+            <div className="text-gray-600 text-[15px] md:text-base text-justify mb-8 leading-relaxed tracking-wide">
+              薩提亞認為，人在壓力下會出現「指責、討好、超理智、打岔」四種生存姿態，這些都係因為內心恐懼。真正健康的溝通是「一致性」的：心口如一，既表達自己的感受（我受傷了），也關照對方的感受（我知道你不是故意的），在尊重與真實中連結。
             </div>
 
             {/* Case */}

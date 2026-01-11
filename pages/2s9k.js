@@ -11,12 +11,24 @@ export default function Page() {
       <div className="w-full max-w-5xl bg-white rounded-[24px] md:rounded-[32px] shadow-xl overflow-hidden flex flex-col md:flex-row">
         
         {/* Left Column: Image */}
-        <div className="w-full md:w-4/12 relative h-48 md:h-auto">
-          <img
-            src="/assets/2s9k.webp"
-            alt="Healing Header"
-            className="absolute inset-0 w-full h-full object-cover object-top"
-          />
+        <div className="w-full md:w-4/12 relative">
+           {/* Desktop Image (Absolute fill) */}
+           <div className="hidden md:block absolute inset-0 w-full h-full">
+               <img
+                src="/assets/2s9k.webp"
+                alt="Healing Header"
+                className="w-full h-full object-cover object-top"
+              />
+           </div>
+           
+           {/* Mobile Image (Natural Height with Max Limit) */}
+           <div className="md:hidden w-full">
+              <img
+                src="/assets/2s9k.webp"
+                alt="Healing Header"
+                className="w-full h-auto max-h-[300px] object-cover object-top"
+              />
+           </div>
         </div>
 
         {/* Right Column: Content */}
@@ -37,7 +49,7 @@ export default function Page() {
             </blockquote>
 
             {/* Theory */}
-            <div className="text-gray-600 text-[15px] md:text-base text-justify mb-8 leading-loose tracking-wide">
+            <div className="text-gray-600 text-[15px] md:text-base text-justify mb-8 leading-relaxed tracking-wide">
               阿德勒提出「共同體感」概念，認為人類的幸福建立在「歸屬感」與「貢獻感」之上。在親密關係中，兩人是命運共同體，「你的事」就是「我們的事」，計較個體得失只會拉遠距離，唯有以「我們」為出發點，關係才能溫柔長存。
             </div>
 
